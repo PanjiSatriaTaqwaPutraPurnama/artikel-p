@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Artikel Saya</title>
+  <link href="https://fonts.googleapis.com/css?family=IBM Plex Sans" rel="stylesheet" />
+</head>
+
+<style>
+  :root {
+  --accent-col: #23a43f;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  color: var(--accent-col);
+  font-family: "IBM Plex Sans";
+}
+
+body {
+  background: beige;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  height: 99px;
+}
+.navbar ul {
+  list-style-type: none;
+}
+.navbar li {
+  float: left;
+  padding-right: 56px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 66px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 30px;
+}
+
+.porgsartcle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+
+.articles {
+  background-color: white;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.pagestyle {
+  width: 200px;
+  height: 1px;
+  background: rgba(20, 32, 62, 0.2);
+}
+
+.hal150 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.pbls178 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.article-desc {
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+
+.article img:hover, .article-desc:hover, .navbar li:hover {
+  cursor: pointer;
+}
+</style>
+<body>
+  <nav>
+    <div class="navbar">
+      <ul>
+        <li>Rumah</li>
+        <li>Artikel Saya</li>
+        <li>Keahlihan</li>
+        <li>Tentang Saya</li>
+      </ul>
+    </div>
+  </nav>
+  <section>
+    <div class="title">Panji Satria Taqwa Putra Purnama</div>
+  </section>
+  <section class=articles>
+    <div class="porgsartcle">
+      <div class="pagestyle"></div>
+      <div class="hal150">Halaman Artikel</div>
+      <div class="pagestyle"></div>
+    </div>
+    <div class="pbls178">
+      <div class="article">
+        <img src="sw.jfif" />
+        <div class="article-desc">Alur belajar teknologi AI</div>
+        <div class="date">Maret 3, 2023</div>
+      </div>
+      <div class="article">
+        <img src="12.webp" width="300px" alt="webp" border="0" />
+        <div class="article-desc">Bagaimana perkembangan Ai saat ini?</div>
+        <div class="date">desember, 2, 2023</div>
+      </div>
+      <div class="article">
+        <img src="63e226d5c74bb.jpg" width="300px" alt="webp" border="0" />
+        <div class="article-desc">Apa itu Artificial Intelegent?</div>
+        <div class="date">Agustus 2, 2023</div>
+      </div>
+      <div class="article">
+        <img src="2321.webp" width="300px" alt="webp" border="0" />
+        <div class="article-desc">Keamanan jaringan menggunakan teknologi AI</div>
+        <div class="date">Juli 1, 2023</div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
+  
+</body>
+</html>
